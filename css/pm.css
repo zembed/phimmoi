@@ -1416,26 +1416,23 @@ nav > .container
 	.movie-info-box .movie-title
 	{
 		position: static;
+		margin-left: 10px;
 	}
 	.movie-info-box .movie-meta-info
 	{
-		position: relative;
 		overflow: hidden;
 		width: auto;
-		height: 214px;
-		margin-left: 165px;
+		height: 100%;
+		font-size: 14px;
+		margin-left: 5px;
 		margin-top: 0;
 		overflow: auto;
 	}
 	
 	.movie-info-box .movie-image
 	{
-		position: absolute;
-		width: 160px;
-		padding: 0;
-		top: 50px;
-		left: -5px;
-		margin-left: 0;
+		width: 90%;
+		margin-left: 15px;
 	}
 	
 	.movie-info .block-movie-info .btn-block .item .btn
@@ -1483,6 +1480,7 @@ nav > .container
 	{
 		top: 0px;
 		left: 0px;
+		right: 0px;
 	}
 	/*
 	.movie-info-box .movie-detail
